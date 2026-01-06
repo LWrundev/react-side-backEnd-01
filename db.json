@@ -1,0 +1,44 @@
+{
+      "users": [
+    {
+      "id": "w1ev",
+      "nickName": "Mike"
+    },
+    {
+      "email": "dddd@mail.com",
+      "password": "$2a$10$cbPo8xoAX7R3Dua8mJhdPuCOzezaxkKNZZoh7SvFa60qW5yWU6XCe",
+      "nickname": "hevy",
+      "id": "1Vxo7Qg"
+    },
+    {
+      "email": "dGTUd@mail.com",
+      "password": "$2a$10$EYf9oxapdp2JIEHn7UHcJO5oG2Af2DqE69gF6wRvqsqW9ZzPs6tqq",
+      "nickname": "YU",
+      "id": "m3Ac3-M"
+    },
+    {
+      "email": "rrrwg@mail.com",
+      "password": "$2a$10$1VORQyXyBcFP83NaOtHV1.fm14ZjRfOsEsy36jRXODgAktZVTEu1K",
+      "nickname": "MIMICO",
+      "id": "2teb8kI"
+    },
+    {
+      "email": "gg123456@mail.com",
+      "password": "$2a$10$L7mxOc2ShRq3LntXr6j6l.1qhloC/VSohwsGwm41TVnvt2Jg3MTB2",
+      "id": "CldSVJe"
+    },
+    {
+      "email": "gg85854444@mail.com",
+      "password": "$2a$10$hw7Fs0lB6Y9t65rG8I5FlewBbstYQ7w1KFDIF6mImq2Nl.cWm0vja",
+      "id": "ugeFBH3"
+    },
+    {
+      "email": "ggsssscd4444@mail.com",
+      "password": "$2a$10$7FDRUtTuwYrVTjbdxGVlVeBh8HLZeXZczAJHBwtgVUGxVp/CkogMO",
+      "createdAt": "2026-01-06T08:12:09.244Z",
+      "id": "MExmpd8",
+      "nickName": "Roy"
+    }
+  ]
+
+}
