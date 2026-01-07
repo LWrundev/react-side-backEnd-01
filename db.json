@@ -1,11 +1,67 @@
 {
   "users": [],
-  "bookings": [
+  "tasks": [
+      {
+        "id": "t-001",
+        "userId": "u-001",
+        "workerId": "u-002",
+        "isFlexTime": false,
+        "times": [
+            { "start": "2026-01-10T09:00:00Z", "end": "2026-01-10T12:00:00Z" },
+            { "start": "2026-01-11T14:00:00Z", "end": "2026-01-11T17:00:00Z" }
+            ],
+        "mainCat": "mc-001",
+        "subCat": "sc-001",
+        "title": "委託標題",
+        "budgetLo": 500,
+        "budgetHi": 2000,
+        "areas": ["臺中市"],
+        "keyTags": ["需求的關鍵字"],
+        "extras": ["et-02"],
+        "desc": "這是對於委託的敘述",
+        "descUrl": "委託的資料連結",
+        "refs": ["img","img"],
+        "state": "st-01",
+        "isRatedByClient": false,
+        "isRatedByworker": false
+      }
+    ],
+  "services": [
     {
-      "id": 1,
-      "userId": 1,
-      "roomType": "豪華雙人房",
-      "date": "2026-02-14"
+      "id": "s-001",
+      "userId": "u-001",
+      "clientId": "u-002",
+      "isFlexTime": false,
+      "times": [
+            { "start": "2026-01-10T09:00:00Z", "end": "2026-01-10T12:00:00Z" },
+            { "start": "2026-01-11T14:00:00Z", "end": "2026-01-11T17:00:00Z" }
+        ],
+      "mainCat": "mc-001",
+      "subCat": "sc-001",
+      "title": "服務標題",
+      "budgetLo": 500,
+      "budgetHi": 2000,
+      "areas": ["臺中市"],
+      "keyTags": ["服務的關鍵字"],
+      "extras": ["et-01"],
+      "desc": "這是對於服務的敘述",
+      "descUrl": "服務的資料連結",
+      "refs": ["img","img"],
+      "state": "st-01",
+      "isRatedByClient": false,
+      "isRatedByworker": false
+    }
+  ],
+  "reviews": [
+    {
+      "id":"msg-001",
+      "type": "task",
+      "targetId": "t-001",
+      "clientId" : "u-001",
+      "workerId" : "u-002",
+      "rate": 5,
+      "content":"這是一則已完成案件的評價，可能來自委託者或接案者",
+      "createdAt": "2026-01-11T20:00:00Z"
     }
   ]
 }
